@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AkuteProto
 
 To start your Phoenix app:
@@ -17,3 +18,9 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+=======
+# Phoenix-React-SCSS-boilerplate
+
+    mix phoenix.server
+    npm start
+>>>>>>> caec883c03a7bcaf5914aeadc5b4c8f2eaf403de
