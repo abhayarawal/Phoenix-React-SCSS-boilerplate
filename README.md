@@ -1,4 +1,4 @@
 # Phoenix-React-SCSS-boilerplate
 
-mix phoenix.server
-npm start
+    mix phoenix.server
+    npm start
