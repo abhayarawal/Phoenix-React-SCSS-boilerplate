@@ -1,0 +1,25 @@
+{
+  "repository": {
+  },
+  "main": "boot.es6",
+  "dependencies": {
+    "brunch": "^1.8.5",
+    "babel-brunch": "^5.1.1",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
+  },
+  "scripts": {
+    "build": "browserify boot.js -t babelify -o web/static/js/bundle.js",
+    "watch": "watchify boot.js -t babelify -o web/static/js/bundle.js",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.6",
+    "react": "^0.13.3",
+    "watchify": "^3.2.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

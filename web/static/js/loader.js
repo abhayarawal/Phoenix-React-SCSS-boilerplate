@@ -1,0 +1,1 @@
+import AppComponent from './flux/components/app_component';
